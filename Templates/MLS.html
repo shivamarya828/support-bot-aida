@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Support Bot</title>
+{%endblock%}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center;">Please navigate through the following form to reach your resolution</h1>
+    <h3>Which category is your query related to?</h3>
+    <a href="/MLS/Pyspark/"><button style="width:25%" type="button">Pyspark</button></a>
+    <a href="/MLS/Hive/"><button style="width:25%" type="button">Hive</button></a>
+    <a href="/MLS/MLSLogin/"><button style="width:25%" type="button">MLS Login</button></a>
+    <a href="/"><button style="position: absolute; left: 80%; right: 10%; bottom: 20%;"> Back </button></a>
+</div>
+{% endblock %}
